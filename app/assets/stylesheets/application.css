@@ -1,0 +1,116 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+/* -----------------@include susy-grid-background;--------------------------------------------------------*/
+/* Layout */
+/* line 9, ../scss/screen.scss */
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 14, ../scss/screen.scss */
+.square {
+  width: 50%;
+  float: left;
+  height: 370px;
+}
+
+/* line 20, ../scss/screen.scss */
+.inner-square {
+  width: 50%;
+  margin: 140px auto 0 auto;
+  text-align: center;
+}
+/* line 24, ../scss/screen.scss */
+.inner-square h1 {
+  vertical-align: middle;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+}
+
+/* line 32, ../scss/screen.scss */
+.one {
+  background-color: #ffffff; 
+  color: white;
+}
+
+/* line 37, ../scss/screen.scss */
+.two {
+   background-color: #eef0f2; 
+  color: black;
+}
+
+/* line 42, ../scss/screen.scss */
+.three {
+  background-color: #eef0f2;
+  color: black;
+}
+
+/* line 47, ../scss/screen.scss */
+.four {
+  background-color: #ffffff; 
+  color: white;
+}
+
+/* line 52, ../scss/screen.scss */
+h1 {
+  vertical-align: middle;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  color: #000000;
+}
+
+/* line 60, ../scss/screen.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 64, ../scss/screen.scss */
+.center {
+  margin: auto;
+  width: 50%;
+  margin-top: 70px;
+}
+/* line 68, ../scss/screen.scss */
+.center h1 {
+  font-size: 3.5em;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+/* line 73, ../scss/screen.scss */
+.center h4 {
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+/* line 77, ../scss/screen.scss */
+.center p {
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 83, ../scss/screen.scss */
+body {
+  margin: 0;
+}
+
+a h4{
+  color: #cb2027;
+}
+
+p a {
+ color: #cb2027; 
+}

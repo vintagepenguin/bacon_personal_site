@@ -1,0 +1,28 @@
+.icons {
+  width: 100%;
+  margin: 30px auto 0 auto;
+}
+
+.icons a {
+  display: inline-block;
+  width: 13%;
+  height: 24px;
+  margin: 10px;
+  vertical-align: middle;
+  -o-transition: all .3s;
+  -moz-transition: all .3s;
+  -webkit-transition: all .3s;
+  -ms-transition: all .3s;
+  float: left;
+  color: #cb2027; 
+}
+
+.icons a.twitter { background: url(../img/twitter.png) left top no-repeat; }
+.icons a.pinterest { background: url(../img/pinterest.png) left top no-repeat; }
+.icons a.linkedin { background: url(../img/linkedin.png) left top no-repeat; }
+.icons a.facebook { background: url(../img/facebook.png) left top no-repeat; }
+.icons a.github { background: url(../img/github.png) left top no-repeat; }
+
+
+.icons a:hover { background-position: left -34px; }
+
