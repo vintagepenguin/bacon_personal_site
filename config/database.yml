@@ -1,21 +1,21 @@
 development:
   adapter: postgresql
-  encoding: unicode
-  database: myapp_development
+  encoding: utf8
+  database: project_development
   pool: 5
-  username: myapp
+  username: 
   password:
 test:
   adapter: postgresql
-  encoding: unicode
-  database: myapp_test
+  encoding: utf8
+  database: project_test
   pool: 5
-  username: myapp
+  username: 
   password:
 production:
   adapter: postgresql
-  encoding: unicode
-  database: myapp_production
+  encoding: utf8
+  database: project_production
   pool: 5
-  username: myapp
+  username:
   password:
