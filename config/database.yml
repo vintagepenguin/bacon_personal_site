@@ -18,4 +18,4 @@ production:
   database: project_production
   pool: 5
   username:
-  password:
+  password: 

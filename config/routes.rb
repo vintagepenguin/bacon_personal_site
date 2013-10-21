@@ -1,9 +1,16 @@
 Bacon::Application.routes.draw do
 
-  get  "/about_me",   to: "about#index"
-  get  "/contact_me", to: "contact#index"
-  get  "/projects",   to: "projects#index"
-  get  "/stories",    to: "stories#index"
+  get  "/about_me",     to: "about#index"
+  get  "/contact_me",   to: "contact#index"
+  get  "/projects",     to: "projects#index"
+  get  "/stories",      to: "stories#index"
+  get  "/stories",      to: "stories#index"
+  get  "/domo",         to: "stories#domo"
+  get  "/instructure",  to: "stories#instructure"
+  get  "/hirevue",      to: "stories#hirevue"
+  get  "/rain",         to: "stories#rain"
+  get  "/moneydesktop", to: "stories#moneydesktop"
+
 
   # for each new Story, I create a route here. 
 
