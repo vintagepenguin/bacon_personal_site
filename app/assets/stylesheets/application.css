@@ -98,7 +98,7 @@ a {
 }
 /* line 77, ../scss/screen.scss */
 .center p {
-  font-weight: 400;
+  font-weight: 700;
   font-family: 'Lato', sans-serif;
   font-size: 1em;
 }
@@ -135,4 +135,10 @@ p a {
 
 .vue{
   color: #f52437;
+}
+
+.center .rain-top{
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5em;
 }
